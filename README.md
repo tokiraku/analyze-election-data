@@ -1,0 +1,2 @@
+# analyze_election_data
+選挙の結果を読み込んで分析する簡易ツール
