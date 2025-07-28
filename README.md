@@ -45,7 +45,7 @@ deactivate
 
 # 📈 データ処理・分析システム
 
-## � データ処理パイプライン
+## 🔄 データ処理パイプライン
 
 ### ステップ1: 選挙区データの処理
 ```bash
@@ -137,12 +137,12 @@ cd "C:\Users\redcr\OneDrive\ドキュメント\GitHub\analyze_voting"
 python cleanup_voting_result_by_electoral_district.py; python cleanup_voting_result_by_proportional_representation.py; python team_mirai_detailed_analysis.py; python supporter_campaign_analysis.py
 ```
 
-### � 比例代表のみ再処理
+### 🔄 比例代表のみ再処理
 ```bash
 python cleanup_voting_result_by_proportional_representation.py
 ```
 
-### � 分析のみ実行（データ処理済みの場合）
+### 📊 分析のみ実行（データ処理済みの場合）
 ```bash
 python team_mirai_detailed_analysis.py
 ```
@@ -153,7 +153,7 @@ python team_mirai_detailed_analysis.py
 - `候補者別市区町村別得票調べ_縦並び版.csv` - 選挙区全候補者データ
 - その他選挙区関連の処理済みCSVファイル
 
-### �️ **output_proportional/** ディレクトリ（比例代表処理済み）
+### 🗳️ **output_proportional/** ディレクトリ（比例代表処理済み）
 - `比例代表_得票総数の開票区別政党等別一覧_縦並び版.csv` - **全16政党×72地区完全データ（1152件）**
 - `比例代表_名簿登載者の得票総数の政党別一覧_縦並び版.csv` - 候補者別データ  
 - `比例代表_開票結果調べ_縦並び版.csv` - 開票結果詳細
@@ -165,11 +165,11 @@ python team_mirai_detailed_analysis.py
 ### 🏆 **team_mirai_analysis/** ディレクトリ
 - `チームみらい詳細分析レポート_完全版.txt` - **メインレポート**（推奨読み物）
 
-### �️ **external_data/** ディレクトリ
+### 📋 **external_data/** ディレクトリ
 - `武藤さん演説・街宣.csv` - 選挙活動スケジュールデータ
 - `サポーター.csv` - サポーター関連データ
 
-### � **tmp_*** ディレクトリ群
+### 💾 **tmp_*** ディレクトリ群
 - `tmp/`, `tmp_proportional/`, `tmp_info/`, `tmp_info_proportional/` - 各処理の中間・バックアップデータ
 
 ## 🚀 新機能・改良点
